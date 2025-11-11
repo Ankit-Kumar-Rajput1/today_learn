@@ -4,10 +4,9 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #f9fafb;
 }
-
-/* Navbar */
-
-
+body, html {
+  overflow-x: hidden;
+}
 /* Navbar CSS */
 .navbar {
   background-color: #000000; /* Black navbar */
@@ -58,7 +57,7 @@ body {
 .signup-btn {
   padding: 6px 15px;
   border: 1px solid #2f8d46;
-  background-color: #000000; /* Match navbar black */
+  background-color: #0f0fdf; /* Match navbar black */
   color: #2f8d46;
   font-weight: 600;
   border-radius: 4px;
@@ -67,7 +66,7 @@ body {
 }
 
 .signup-btn {
-  background-color: #2f8d46;
+  background-color:  #0f0fdf;
   color: white;
 }
 
@@ -78,6 +77,8 @@ body {
 
 .signup-btn:hover {
   opacity: 0.9;
+   background-color: #2f8d46;
+  color: white;
 }
 
 /* Responsive */
@@ -116,7 +117,7 @@ body {
   font-weight: bold;
   border-radius: 30px;
   cursor: pointer;
-}
+} 
 
 /* Courses Grid */
 .courses-container {
@@ -125,6 +126,8 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   padding: 40px;
+  
+  
 }
 
 /* Course Card */
@@ -135,6 +138,7 @@ body {
   box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s;
   height:200px;
+  
 }
 
 .course-card:hover {
@@ -164,6 +168,28 @@ body {
   border-radius: 20px;
   text-decoration: none;
 }
+/* Whatsapp setting */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 16px;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #128C7E;
+}
+
 
 /* Course Details Page */
 .course-details {
@@ -195,8 +221,6 @@ body {
   text-align: center;
 }
 /* src/HTML.css */
-/* src/HTML.css */
-
 .html-container {
   padding: 20px;
   font-family: 'Segoe UI', sans-serif;

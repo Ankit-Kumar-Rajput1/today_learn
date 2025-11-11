@@ -3,7 +3,7 @@ import React from 'react';
 
 const SqlMysql = () => {
   return (
-    <div className="container">
+    <div className="html-container">
       <h1>SQL and MySQL</h1>
 
       <section>

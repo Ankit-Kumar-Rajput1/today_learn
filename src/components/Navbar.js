@@ -58,7 +58,7 @@ function Navbar({ darkMode, toggleDarkMode }) {
       <div className="hamburger" onClick={toggleMenu}>☰</div>
 
       <button onClick={toggleDarkMode} className="dark-mode-btn">
-        {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+        {darkMode ? '🌙 Dark Mode' : '☀️ Light Mode'}
       </button>
     </nav>
   );

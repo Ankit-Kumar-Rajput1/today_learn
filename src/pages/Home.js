@@ -14,8 +14,7 @@ function Home() {
         <h1>Start Learning Today</h1>
         <p>Choose the best online courses and grow your skills!</p>
         <Link to="/courses" className="hero-btn">Browse Courses</Link>
-      </section>
-
+      </section> 
       {/* Courses Section */}
       <section className="courses-container">
         {courses.map(course => (
@@ -35,7 +34,22 @@ function Home() {
       <Contact/>
       <Login/>
       <Signup/>
+      <a
+  href="https://wa.me/919548730309"
+  className="whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp"
+    style={{ width: '20px', verticalAlign: 'middle', marginRight: '8px' }}
+  />
+
+  WhatsApp
+</a>
     </div>
+    
   );
 }
 

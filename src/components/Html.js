@@ -7,7 +7,7 @@ const Html = () => {
     <div className="html-container">
       <h1>HTML (HyperText Markup Language)</h1>
 
-      {/* HTML Section */}
+      {/*HTML Section*/}
       <section>
         <h2>What is HTML?</h2>
         <p>

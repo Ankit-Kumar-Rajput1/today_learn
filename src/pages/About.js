@@ -8,7 +8,7 @@ function About() {
         <div className="hero-content">
           <h1>About Ankit Kumar</h1>
           <p>
-            My name is Ankit Kumar. I am a passionate Full Stack Web Developer with strong knowledge of HTML, CSS, JavaScript, React, Node.js, and MySQL. Currently, I’m in the 2nd year of my BCA at Invertis University, Bareilly. I love building dynamic, responsive, and user-friendly websites.
+            My name is Ankit Kumar. I am a passionate Full Stack Web Developer with strong knowledge of HTML, CSS, JavaScript, React, Node.js, and MySQL. Currently, I’m in the Final year of my BCA at Invertis University, Bareilly. I love building dynamic, responsive, and user-friendly websites.
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const DSA = () => {
   return (
-    <div className="container">
+    <div className="html-container">
       <h1>Data Structures and Algorithms (DSA)</h1>
 
       <section>

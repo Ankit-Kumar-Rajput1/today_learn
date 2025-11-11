@@ -3,7 +3,7 @@ import React from 'react';
 
 const JSReact = () => {
   return (
-    <div className="container">
+    <div className="html-container">
       <h1>JavaScript (JS)</h1>
 
       <section>

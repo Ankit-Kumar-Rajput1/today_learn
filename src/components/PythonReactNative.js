@@ -3,7 +3,7 @@ import React from 'react';
 
 const PythonReactNative = () => {
   return (
-    <div className="container">
+    <div className="html-container">
       <h1>Python</h1>
 
       <section>

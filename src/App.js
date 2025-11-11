@@ -15,6 +15,8 @@ import NExpress from './components/NExpress';
 import PythonReactNative from './components/PythonReactNative';
 import DSA from './components/DSA';
 import SqlMysql from './components/SqlMysql';
+import C from './components/C';
+import Interview from './components/Interview';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -43,6 +45,9 @@ function App() {
           <Route path="/PythonReactNative" element={<PythonReactNative />} />
           <Route path="/DSA" element={<DSA />} />
           <Route path="/SqlMysql" element={<SqlMysql />} />
+          <Route path='/C' element={<C/>}/>
+          <Route path='/Interview' element={<Interview/>}/>
+
           <Route path="/course/:id" element={<CourseDetails />} />
         </Routes>
       </div>

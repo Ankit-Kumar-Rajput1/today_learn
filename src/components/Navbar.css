@@ -10,11 +10,16 @@
 }
 
 .navbar-brand a {
-  color: rgb(15, 41, 233);
-  background: linear-gradient(135deg, #00ff40, #f2f935);
+  color: rgb(255, 255, 255);
+  background: linear-gradient(135deg, #0033ff, #f2f935);
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
+}
+.navbar-brand a:hover{
+  background-color: #ef1313;
+  color: white;
+  opacity: 0.9
 }
 
 .nav-links {
@@ -27,6 +32,8 @@
   text-decoration: none;
   font-weight: 500;
   margin: 0 10px;
+  padding-top:10px;
+  
 }
 
 .login-btn,
